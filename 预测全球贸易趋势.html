@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="5d66ee5c36914d108cd8f031478c981e" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_5d66ee5c36914d108cd8f031478c981e = echarts.init(
+            document.getElementById('5d66ee5c36914d108cd8f031478c981e'), 'white', {renderer: 'canvas'});
+        var option_5d66ee5c36914d108cd8f031478c981e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Austria",
+                    "value": [
+                        14.55,
+                        47.52,
+                        30
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "value": [
+                        105.32,
+                        61.52,
+                        70
+                    ]
+                },
+                {
+                    "name": "India",
+                    "value": [
+                        78.96,
+                        20.59,
+                        60
+                    ]
+                },
+                {
+                    "name": "China",
+                    "value": [
+                        104.2,
+                        35.86,
+                        99
+                    ]
+                },
+                {
+                    "name": "South Africa",
+                    "value": [
+                        22.94,
+                        -30.56,
+                        50
+                    ]
+                },
+                {
+                    "name": "Belgium",
+                    "value": [
+                        4.47,
+                        50.5,
+                        30
+                    ]
+                },
+                {
+                    "name": "French",
+                    "value": [
+                        2.21,
+                        46.23,
+                        60
+                    ]
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": [
+                        25.49,
+                        42.73,
+                        30
+                    ]
+                },
+                {
+                    "name": "Croatia",
+                    "value": [
+                        15.2,
+                        45.1,
+                        30
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "value": [
+                        10.45,
+                        51.17,
+                        30
+                    ]
+                },
+                {
+                    "name": "Finland",
+                    "value": [
+                        25.75,
+                        61.92,
+                        30
+                    ]
+                },
+                {
+                    "name": "Denmark",
+                    "value": [
+                        9.5,
+                        56.26,
+                        30
+                    ]
+                },
+                {
+                    "name": "America",
+                    "value": [
+                        1.66,
+                        28.03,
+                        10
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "value": [
+                        138.25,
+                        36.2,
+                        25
+                    ]
+                },
+                {
+                    "name": "Thailand",
+                    "value": [
+                        100.99,
+                        15.87,
+                        40
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u9884\u4f30\u603b\u8d38\u6613\u989d\uff08\u5355\u4f4d\uff1a\u4ebf\u7f8e\u5143\uff09",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 7
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Austria->America",
+                    "coords": [
+                        [
+                            14.55,
+                            47.52
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Belgium->America",
+                    "coords": [
+                        [
+                            4.47,
+                            50.5
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Bulgaria->America",
+                    "coords": [
+                        [
+                            25.49,
+                            42.73
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Germany->America",
+                    "coords": [
+                        [
+                            10.45,
+                            51.17
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Finland->America",
+                    "coords": [
+                        [
+                            25.75,
+                            61.92
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "Denmark->America",
+                    "coords": [
+                        [
+                            9.5,
+                            56.26
+                        ],
+                        [
+                            1.66,
+                            28.03
+                        ]
+                    ]
+                },
+                {
+                    "name": "India->China",
+                    "coords": [
+                        [
+                            78.96,
+                            20.59
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "South Africa->China",
+                    "coords": [
+                        [
+                            22.94,
+                            -30.56
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->China",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Thailand->China",
+                    "coords": [
+                        [
+                            100.99,
+                            15.87
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "Thailand->Japan",
+                    "coords": [
+                        [
+                            100.99,
+                            15.87
+                        ],
+                        [
+                            138.25,
+                            36.2
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.4,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "coordinateSystem": "geo",
+            "zlevel": 4,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "blue",
+                "symbol": "arrow",
+                "symbolSize": 7
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "America->China",
+                    "coords": [
+                        [
+                            1.66,
+                            28.03
+                        ],
+                        [
+                            104.2,
+                            35.86
+                        ]
+                    ]
+                },
+                {
+                    "name": "America->Russia",
+                    "coords": [
+                        [
+                            1.66,
+                            28.03
+                        ],
+                        [
+                            105.32,
+                            61.52
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->French",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            2.21,
+                            46.23
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->Germany",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            10.45,
+                            51.17
+                        ]
+                    ]
+                },
+                {
+                    "name": "Russia->Austria",
+                    "coords": [
+                        [
+                            105.32,
+                            61.52
+                        ],
+                        [
+                            14.55,
+                            47.52
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.4,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u9884\u4f30\u603b\u8d38\u6613\u989d\uff08\u5355\u4f4d\uff1a\u4ebf\u7f8e\u5143\uff09",
+                ""
+            ],
+            "selected": {
+                "": true,
+                "\u9884\u4f30\u603b\u8d38\u6613\u989d\uff08\u5355\u4f4d\uff1a\u4ebf\u7f8e\u5143\uff09": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u540e\u75ab\u60c5\u65f6\u4ee3\u5168\u7403\u5404\u56fd\u8d38\u6613\u5f80\u6765\u8d8b\u52bf\u9884\u6d4b",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_5d66ee5c36914d108cd8f031478c981e.setOption(option_5d66ee5c36914d108cd8f031478c981e);
+    </script>
+</body>
+</html>
