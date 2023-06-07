@@ -25,8 +25,8 @@
 ## 作业2:人物关系网页设计
 描述：作者以《海贼王》这个漫画为背景，整理了草帽海盗团的主角的人物信息和团队背景介绍，最后呈现了主要几个团体的敌友关系。增添了一些趣味性：人物头像做了紫色呼吸感发光处理；其次，当鼠标点击头像时头像会感应到并360度旋转一圈》。
 [作业2链接](https://GINAFORG.github.io/海贼王角色关系展示.html)
-# Introduction to Computer Science and Programming
+# The impact of the China carbon peak and neutral policy on stockholders and the stock price of the cement building materials industry.
 ## Author：Meitong Dong
-Abstract: Based on the "Double Carbon" policy implemented by the Chinese government, I investigated whether the stock prices of companies with high carbon emissions are affected by the psychology of the stockholders and the release of the policy. I collected a total of 110,000 pieces of data on the hot topics of stock market news on Phoenix Finance, the average daily temperature fluctuations of the top 20 cities in terms of GDP, and the stock price fluctuations of the cement building materials sector (BK0424), and used libraries and toolkits such as selenium, pyechart, and pandas.
+Abstract: Based on the "Carbon Peak and Neutrality Targets" policy implemented by the Chinese government, I investigated whether the stock prices of companies with high carbon emissions are affected by the psychology of the stockholders and the release of the policy. I collected a total of 110,000 pieces of data on the hot topics of stock market news on Phoenix Finance, the average daily temperature fluctuations of the top 20 cities in terms of GDP, and the stock price fluctuations of the cement building materials sector (BK0424), and used libraries and toolkits such as selenium, pyechart, and pandas.
 [link](https://GINAFORG.github.io/组合图表展示.html)
 
